@@ -1,15 +1,19 @@
-## 👋 Hi, I'm Apovic
+// developer.js
 
-### 💻 Discord Bot Developer | Backend Enthusiast
-
-- 🧠 Focused on building scalable, event-driven bots with **Node.js** and **JavaScript**
-- 🔧 Strong experience with **Discord.js**, custom command handlers, and RESTful integrations
-- 🗃️ Data handling with **MongoDB**, **SQLite**, and flat-file (JSON/YAML) structures
-- 🧩 Modular architecture, async/await patterns, and clean error handling
-- 🚀 Prioritizing performance, maintainability, and code readability
-- 🤝 Open to **freelance work**, contributions, or collaborative projects
-
-> “Code is not just what it does, but how clearly it speaks.”
-
----
-# Apovic
+module.exports = {
+  name: 'Apovic',
+  age: 22,
+  role: 'Discord Bot Developer',
+  languages: ['JavaScript', 'Node.js'],
+  tools: ['Discord.js', 'MongoDB', 'SQLite', 'REST APIs'],
+  skills: {
+    architecture: 'modular',
+    patterns: ['async/await', 'event-driven', 'error handling'],
+    focus: ['performance', 'maintainability', 'code readability']
+  },
+  availability: {
+    freelance: true,
+    collaboration: true,
+  },
+  quote: 'Code is not just what it does, but how clearly it speaks.'
+};
