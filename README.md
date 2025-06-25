@@ -1,19 +1,18 @@
-// developer.js
+class Apovic {
+  constructor(options) {
+    this.name = "Apovic";
+    this.sex = "Man";
+    this.length = "178";
+    this.type = "human";
+    this.job = "Discord Developer";
+    this.weight = "70";
+    this.age = "22";
+    this.languages = ["JavaScript", "Node.js"];
+    this.tools = ["Discord.js", "MongoDB", "SQLite"];
+    this.discord = {
+      tag: "apovic.dev"
+    };
+  }
+}
 
-module.exports = {
-  name: 'Apovic',
-  age: 22,
-  role: 'Discord Bot Developer',
-  languages: ['JavaScript', 'Node.js'],
-  tools: ['Discord.js', 'MongoDB', 'SQLite', 'REST APIs'],
-  skills: {
-    architecture: 'modular',
-    patterns: ['async/await', 'event-driven', 'error handling'],
-    focus: ['performance', 'maintainability', 'code readability']
-  },
-  availability: {
-    freelance: true,
-    collaboration: true,
-  },
-  quote: 'Code is not just what it does, but how clearly it speaks.'
-};
+module.exports = Apovic;
